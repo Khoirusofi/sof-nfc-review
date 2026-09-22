@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:light} body{background:#f8fafc;color:#0f172a} @media print{.no-print{display:none!important}.print-grid{display:grid!important}}

@@ -1,0 +1,1 @@
+'use client'; import {useEffect} from 'react'; export function Toast({message,onClose}:{message:string;onClose:()=>void}){useEffect(()=>{const id=setTimeout(onClose,4000);return()=>clearTimeout(id)},[onClose]);return <div className="fixed bottom-5 right-5 rounded-lg bg-slate-900 px-4 py-3 text-white shadow-lg">{message}</div>}
